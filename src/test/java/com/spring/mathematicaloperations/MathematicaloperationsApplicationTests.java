@@ -13,8 +13,8 @@ class MathematicaloperationsApplicationTests {
 	//Perform test to check whether the operations of Add working
 	void CalculateTest_TestAddOperations_IsTrue(){
 		var calculate_obj = new Calculation();
-		int result = calculate_obj.Calculate("+",1,3);
-		Assert.assertEquals(result,4);
+		int result = calculate_obj.Calculate("+",1,2);
+		Assert.assertEquals(result,3);
 	}
 	@Test
 		//Perform test to check whether the operations of Sub working
