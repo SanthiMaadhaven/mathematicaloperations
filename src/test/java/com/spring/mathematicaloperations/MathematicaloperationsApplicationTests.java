@@ -20,8 +20,8 @@ class MathematicaloperationsApplicationTests {
 		//Perform test to check whether the operations of Sub working
 	void CalculateTest_TestSubOperations_IsTrue(){
 		var calculate_obj = new Calculation();
-		int result = calculate_obj.Calculate("-",1,2);
-		Assert.assertEquals(result,-1);
+		int result = calculate_obj.Calculate("-",1,3);
+		Assert.assertEquals(result,-2);
 	}
 	@Test
 		//Perform test to check whether the operations of Multiply working
