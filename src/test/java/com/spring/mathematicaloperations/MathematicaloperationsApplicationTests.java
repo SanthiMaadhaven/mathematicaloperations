@@ -27,8 +27,8 @@ class MathematicaloperationsApplicationTests {
 		//Perform test to check whether the operations of Multiply working
 	void CalculateTest_TestMultiplyOperations_IsTrue(){
 		var calculate_obj = new Calculation();
-		int result = calculate_obj.Calculate("*",1,2);
-		Assert.assertEquals(result,2);
+		int result = calculate_obj.Calculate("*",1,3);
+		Assert.assertEquals(result,3);
 	}
 	@Test
 		//Perform test to check whether other operators returns default value
