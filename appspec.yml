@@ -11,17 +11,3 @@ permissions:
     owner: ec2-user
     group: ec2-user
 
-hooks:
-  ApplicationStop:
-    - location: Scripts/server_stop.sh
-      timeout: 20
-      runas: ec2-user
-  ApplicationStart:
-    - location: Scripts/server_start.sh
-      timeout: 20
-      runas: ec2-user
-  ValidateService:
-    - location: Scripts/server_validate.sh
-      timeout: 60
-      runas: ec2-user
-      
