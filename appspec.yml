@@ -13,15 +13,15 @@ permissions:
 
 hooks:
   ApplicationStop:
-    - location: scripts/server_stop.sh
+    - location: Scripts/server_stop.sh
       timeout: 20
       runas: ec2-user
   ApplicationStart:
-    - location: scripts/server_start.sh
+    - location: Scripts/server_start.sh
       timeout: 20
       runas: ec2-user
   ValidateService:
-    - location: scripts/server_validate.sh
+    - location: Scripts/server_validate.sh
       timeout: 60
       runas: ec2-user
       
