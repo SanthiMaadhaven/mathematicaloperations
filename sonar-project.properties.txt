@@ -1,5 +1,5 @@
 # must be unique in a given SonarQube instance
-sonar.projectKey="JenkinsIntegration_MathematicalOperations": sqp_821a813e278228a52982f1b221b92cc6c682c868
+sonar.projectKey="JenkinsIntegration_MathematicalOperations":sqp_5a4b052bab33a9faef0249cab0cd7e249d92ff49
 
 # --- optional properties ---
 
